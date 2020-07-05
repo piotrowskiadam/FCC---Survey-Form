@@ -1,0 +1,47 @@
+#container {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background: rgb(232, 94, 154);
+  background: radial-gradient(
+    circle,
+    rgba(232, 94, 154, 1) 32%,
+    rgba(102, 135, 233, 1) 98%
+  );
+}
+
+table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+textarea {
+  margin-bottom: 1em;
+}
+
+.myButton {
+  box-shadow: inset 0px 3px 46px -2px #29bbff;
+  background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  background-color: #2dabf9;
+  border-radius: 9px;
+  border: 1px solid #0b0e07;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 9px 23px;
+  text-decoration: none;
+  text-shadow: 0px 1px 50px #263666;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+  background-color: #0688fa;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
