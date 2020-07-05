@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Registration <form action=""></form></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Car club</h1>
+      <p id="description">Registration form</p>
+      <form id="survey-form">
+        <label id="name-label"
+          ><p>Name</p>
+          <input id="name" type="text" placeholder="Name" required /></label
+        ><br />
+        <label id="email-label"
+          ><p>Email</p>
+          <input id="email" type="email" placeholder="Email" required /></label
+        ><br />
+        <label id="number-label"
+          ><p>Number</p>
+          <input
+            id="number"
+            type="number"
+            min="1"
+            max="5"
+            placeholder="Number" /></label
+        ><br />
+        <label
+          ><p>Car brand</p>
+          <select id="dropdown">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+          </select></label
+        >
+        <p>Select your gender:</p>
+        <div>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <input
+                    type="radio"
+                    id="Male"
+                    name="gender"
+                    value="Male"
+                    checked
+                  />
+                </td>
+                <td><label for="Male">Male</label></td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    type="radio"
+                    id="Female"
+                    name="gender"
+                    value="Female"
+                  />
+                </td>
+                <td><label for="Female">Female</label></td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="radio" id="Other" name="gender" value="Other" />
+                </td>
+                <td><label for="Other">Other</label></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <br />
+          <textarea placeholder="Place for additional comments"></textarea
+          ><br />
+
+          <label class="newsletter"
+            ><input type="checkbox" value="newsletter" />Newsletter
+            subscription</label
+          ><br />
+          <label class="agreement"
+            ><input type="checkbox" value="agree" />Agreement to terms and
+            conditions</label
+          ><br /><br />
+          <button id="submit" type="submit" class="myButton">Submit</button>
+
+          <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
